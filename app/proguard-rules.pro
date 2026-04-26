@@ -1,2 +1,4 @@
-# Keep data models used in serialization
--keep class com.example.musicplayer.** { *; }
+-keep class * extends com.google.protobuf.GeneratedMessageLite { *; }
+-keep class * extends com.google.protobuf.AbstractMessageLite { *; }
+-keep class org.libsodium.jni.NaCl { *; }
+-keep class org.libsodium.jni.SodiumJNI { *; }

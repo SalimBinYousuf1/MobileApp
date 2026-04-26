@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FluidMusic"
+rootProject.name = "IAmHere"
 include(":app")
